@@ -36,6 +36,18 @@ const App = () => {
     return(
        <div className="app">
             <h1>MovieLand</h1>
+            <div className="navigationBar">
+                <header>
+                    <nav>
+                        <ul>
+                            <li>Menu</li>
+                            <li>Watchlist</li>
+                            <li>Sign In</li>
+                            <li>register</li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
 
             <div className="search">
                 <input 

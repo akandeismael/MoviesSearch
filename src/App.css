@@ -25,6 +25,16 @@ body {
   align-items: center;
   flex-direction: column;
 }
+.navigationBar{
+  color: rgb(218, 196, 155);
+}
+.navigationBar ul{
+  list-style: none;
+  display: flex;
+}
+.navigationBar li{
+  margin: 10px;
+}
 
 h1 {
   font-size: 3rem;
